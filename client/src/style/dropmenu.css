@@ -1,0 +1,173 @@
+.templates_buttons-container {
+  width: 100%;
+  height: 54px;
+}
+
+.templates_intro-button-text {
+  display: flex;
+  cursor: pointer;
+}
+
+.templates_buttons {
+  margin-left: 100px;
+  width: 550px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 54px;
+  position: relative;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+
+.down1 {
+  width: 9px;
+  height: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  height: 300px;
+  color: white;
+  display: block;
+  font-size: 20px;
+  background: #063247;
+  transition: .6s;
+}
+
+.link_dropMenu {
+  height: auto;
+  width: auto;
+  background: none;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  color: #333;
+}
+
+.link_dropMenu:hover {
+  color: #0c6efc;
+}
+
+nav ul ul{
+  width: 148px;
+  position: absolute;
+  border-top: 3px solid #0c6efc;
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav ul li:hover > ul{
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+}
+nav ul ul li{
+  width: 600px;
+  height: 300px;
+  display: list-item;
+  position: relative;
+  /* border: 1px solid #042331; */
+  border-top: none;
+}
+
+nav ul ul ul{
+  border-top: none;
+}
+nav ul ul ul li{
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.dropMenu_main-container {
+  width: 900px;
+  position: relative;
+  display: flex;
+  height: 330px;
+  z-index: 99;
+  background-color: white;
+}
+
+.mod-2 {
+  width: 220px;
+}
+
+.down_text {
+  display: flex;
+  cursor: pointer;
+  width: 155px;
+}
+
+.down_text:hover {
+  color: rgb(12, 110, 252);
+}
+
+.dropMenu_box {
+  width: 25%;
+}
+
+.mod-222 {
+  width: 100%;
+}
+
+.dropMenu_main-text {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.dropMenu_container-text {
+  padding: 10px 20px;
+  line-height: 1.7;
+}
+
+.mod-22 {
+  line-height: 1.8;
+}
+
+.dropMenu_border {
+  height: 85%;
+  background-color: grey;
+  width: 1px;
+  opacity: .2;
+  margin-top: 17px;
+}
+
+.mod-3 {
+  width: 1px;
+  margin-right: 10px;
+}
+
+.mod-33 {
+  width: 92px;
+}

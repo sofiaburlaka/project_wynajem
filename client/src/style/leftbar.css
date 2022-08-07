@@ -1,0 +1,11 @@
+.leftbar_container {
+  width: 20%;
+
+}
+
+.button_container {
+  margin: 20px 20px;
+  display: grid;
+  width: 150px;
+  align-items: flex-start !important;
+}

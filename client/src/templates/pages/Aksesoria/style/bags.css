@@ -1,0 +1,851 @@
+.bages {
+    width: 100%;
+    height: 100%;
+}
+
+.href-title {
+    text-decoration-line: none;
+}
+
+.fixed-title {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(19, 19, 19);
+    /* If you need to enable flexible Navbar --> position: fixed; */
+    position: sticky;
+    display: flex;
+    /* background-color: rgba(19, 19, 19, 0.8); */
+    /* z-index: 10; */
+}
+
+/* TITLE 1 */
+
+.title-1 {
+    width: 440px;
+    height: 100px;
+}
+
+.thenorthpole {
+    display: flex;
+    padding-top: 28px;
+    padding-left: 28px;
+}
+
+.the {
+    font-size: 37px;
+    font-weight: 400;
+    color: rgb(162, 156, 156);
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    letter-spacing: -2px;
+    cursor: pointer;
+}
+
+.northpole {
+    font-size: 37px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    letter-spacing: -2px;
+    cursor: pointer;
+}
+
+/* TITLE-2 */
+
+.title-2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-left: 920px;
+    z-index: -1;
+}
+
+.s-a-f-c {
+    width: 310px;
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    z-index: -1;
+
+}
+
+.log-in {
+    width: 110px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 14px;
+    display: flex;
+}
+
+.log-icon {
+    width: 20px;
+    height: 20px;
+    background: url(../img/bags/log-icon.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    top: 11px;
+    left: 16px;
+    cursor: pointer;
+    filter: invert(86%) sepia(6%) saturate(143%) hue-rotate(314deg) brightness(88%) contrast(0%);
+}
+
+.log {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: 19px;
+    margin-left: 10px;
+    font-weight: 400;
+    color: rgb(162, 156, 156);
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    margin-top: 10px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.log:hover {
+    color: #fff;
+}
+
+.basket {
+    width: 24px;
+    position: relative;
+    top: 36px;
+    left: 10px;
+    height: 24px;
+    background: url(../img/bags/shopping-basket-64.png) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    filter: invert(86%) sepia(6%) saturate(143%) hue-rotate(314deg) brightness(88%) contrast(0%);
+}
+
+.basket:hover {
+    filter: none;
+}
+
+.shop {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(162, 156, 156);
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    cursor: pointer;
+    margin: auto;
+    padding-right: 16px;
+}
+
+.popups {
+    position: absolute;
+    left: 1190px;
+    top: 0px;
+    height: 190px;
+    z-index: -1;
+    display: none;
+}
+
+.bufer-pop {
+    width: 100%;
+    height: 100px;
+}
+
+.block {
+    background: rgba(19, 19, 19, 0.8);
+    height: 95px;
+    width: 100px;
+    max-height: 0;
+    transition: all 2s;
+}
+
+.block-text {
+    padding-top: 11px;
+    font-size: 12.5px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(162, 156, 156);
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    transition: all .5s;
+}
+
+.block-text:hover {
+    color: #fff;
+}
+
+.shop:hover {
+    color: #fff;
+}
+
+.shop:hover .popups {
+    display: block;
+}
+
+.shop:hover .block {
+    max-height: 120px;
+}
+
+.forum {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(162, 156, 156);
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    cursor: pointer;
+    margin: auto;
+    transition: all .4s;
+    padding-right: 16px;
+}
+
+.forum:hover {
+    color: #fff;
+}
+
+.contact {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(162, 156, 156);
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    cursor: pointer;
+    margin: auto;
+    transition: all .4s;
+    padding-right: 70px;
+}
+
+.contact:hover {
+    color: #fff;
+}
+
+.about {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(162, 156, 156);
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    cursor: pointer;
+    margin: auto;
+    transition: all .4s;
+    padding-right: 16px;
+}
+
+.about:hover {
+    color: #fff;
+}
+
+/* SEARCH */
+
+.search {
+    width: 161px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.search:hover {
+    background-color: rgb(0, 0, 0, 0.7);
+    border-bottom: 2px solid white;
+}
+
+.png-transp:hover {
+    filter: none;
+}
+
+.text {
+    border: none;
+    width: 125px;
+    height: 45px;
+    outline: none;
+    color: rgb(197, 191, 191);
+    background: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    padding-left: 7px;
+    padding-top: 15px;
+
+
+}
+
+.png-transp {
+    background: url(../img/bags/search.png) no-repeat center;
+    background-size: cover;
+    z-index: 5;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    top: 18px;
+    left: 6px;
+    cursor: pointer;
+    filter: invert(86%) sepia(6%) saturate(143%) hue-rotate(314deg) brightness(88%) contrast(0%);
+}
+
+/* FRONT IMG */
+
+.front-img {
+    height: 906px;
+    width: 100%;
+    background: url(../img/bags/84770f_93b300330b3742f2b1948ef292a91f27_mv2_d_1920_1279_s_2.webp) no-repeat center;
+    background-size: cover;
+}
+
+.img-info {
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-title {
+    padding-top: 405px;
+    font-size: 90px;
+    color: #fff;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    letter-spacing: -3px;
+    font-weight: 900;
+}
+
+.shop-now-1 {
+    width: 136px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.shop-now-1:hover {
+    color: rgb(162, 156, 156);
+}
+
+/* FIXED LINK */
+
+.fixed-link {
+    position: absolute;
+    right: 0;
+    top: 425px;
+    width: 110px;
+    height: 190px;
+    position: fixed;
+    background-color: rgb(19, 19, 19);
+    background-color: rgba(19, 19, 19, 0.8);
+    z-index: 10;
+}
+
+.link-icon {
+    width: 30px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+
+.link-facebook {
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    background: url(../img/bags/facebook.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.link-youtube {
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    background: url(../img/bags/youtube.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.link-instagram {
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    background: url(../img/bags/instagram.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* SECOND PAGE*/
+
+.second-page {
+    width: 100%;
+    height: 806px;
+    display: flex;
+}
+
+.page-2-title {
+    width: 50%;
+    height: 806px;
+    background-color: black;
+    text-align: center;
+}
+
+.bag {
+    width: 50%;
+    height: 806px;
+    background: url(../img/bags/bag.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.new-arrivals {
+    margin-top: 340px;
+    font-size: 63px;
+    font-weight: 800;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    color: #fff;
+}
+
+.shop-now-2 {
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.shop-now-2:hover {
+    color: rgb(162, 156, 156);
+}
+
+/* B-D-T */
+
+.b-d-t {
+    width: 100%;
+    height: 633px;
+    display: flex;
+    background-color: black;
+}
+
+.backpacks {
+    width: 33.3%;
+    height: 633px;
+    background: url(../img/bags/backpacks.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+
+.backpacks:hover {
+    background-size: 110%;
+    background-position: center;
+}
+
+.duffle-bags {
+    width: 33.33%;
+    height: 633px;
+    background: url(../img/bags/duffle-bags.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+
+.duffle-bags:hover {
+    background-size: 110%;
+    background-position: center;
+}
+
+.travel-packs {
+    width: 33.33%;
+    height: 633px;
+    background: url(../img/bags/travel-packs.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+
+.travel-packs:hover {
+    background-size: 110%;
+    background-position: center;
+}
+
+
+.href-img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 315px;
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+}
+
+.href-img:hover {
+    background-color: rgb(0, 0, 0, 0.45);
+    opacity: 1;
+}
+
+.href {
+    text-decoration: none;
+}
+
+/* 3 BAGES */
+
+.bags-3 {
+    width: 100%;
+    height: 905px;
+    background-color: black;
+}
+
+.now-on-s {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    text-align: center;
+    padding-top: 120px;
+    color: #fff;
+}
+
+.up-to-50 {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 18px;
+    color: #fff;
+    word-spacing: 3px;
+}
+
+.choice-bags {
+    width: 50%;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+.block-bags {
+    width: 33.3%;
+    height: 480px;
+    cursor: pointer;
+}
+
+.bag-1 {
+    width: 100%;
+    height: 345px;
+    background: url(../img/bags/bag-1.webp) no-repeat center;
+    background-size: cover;
+}
+
+.name-bag {
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 45px;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    transition: .4s;
+    font-weight: 600;
+}
+
+.block-bags:hover .name-bag {
+    opacity: 0;
+    transition: .4s;
+}
+
+.hover-name-bag {
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    font-size: 23px;
+    position: relative;
+    top: -30px;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.hover-name-bag:hover {
+    color: rgb(162, 156, 156)
+}
+
+
+.block-bags:hover .hover-name-bag {
+    opacity: 1;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.line-through {
+    text-decoration: line-through;
+    width: 90px;
+    height: 25px;
+}
+
+.display {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    font-size: 20px;
+}
+
+.bag-2 {
+    width: 100%;
+    height: 345px;
+    background: url(../img/bags/bag-2.webp) no-repeat center;
+
+}
+
+.bag-3 {
+    width: 100%;
+    height: 343px;
+    background: url(../img/bags/bag-3.webp) no-repeat center;
+}
+
+/*DESERT*/
+
+.desert {
+    width: 100%;
+    height: 730px;
+    background: url(../img/bags/desert.webp)no-repeat center;
+    background-size: cover;
+}
+
+.block-desert {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.desert-text {
+    height: 350px;
+    width: 400px;
+    position: relative;
+    top: 200px;
+    left: 450px;
+}
+
+.desert-title {
+    height: 80px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    color: #fff;
+}
+
+.desert-info {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    color: #fff;
+}
+
+/*BLOCK CONTANT*/
+
+.block-contant {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+
+.contact-blok-1 {
+    width: 420px;
+    height: 560px;
+    position: relative;
+    top: 115px;
+    left: 470px;
+}
+
+.title-contant-1 {
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.title-contant-2 {
+    font-size: 22px;
+    margin-left: 90px;
+    font-weight: 600;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    color: #fff;
+}
+
+.text-contant-1 {
+    margin-top: 8px;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    outline: none;
+    border-color: #fff;
+    border-width: 2px;
+    color: #fff;
+    background: transparent;
+    border-style: solid;
+    padding-left: 7px;
+}
+
+.text-contant-2 {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    outline: none;
+    border-color: #fff;
+    border-width: 2px;
+    color: #fff;
+    background: transparent;
+    border-style: solid;
+    padding-left: 7px;
+}
+
+.text-contant-3 {
+    margin-top: 8px;
+    height: 50px;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+    border-color: #fff;
+    border-width: 2px;
+    color: #fff;
+    background: transparent;
+    border-style: solid;
+    padding-left: 7px;
+}
+
+.text-contant-4 {
+    margin-top: 8px;
+    height: 150px;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+    border-color: #fff;
+    border-width: 2px;
+    color: #fff;
+    background: transparent;
+    border-style: solid;
+    padding-left: 7px;
+}
+
+.hover-text:hover {
+    border-width: 3px;
+}
+
+.button-contant {
+    width: 150px;
+    height: 45px;
+    position: relative;
+    left: 270px;
+    top: 40px;
+    background: transparent;
+    border-style: solid;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    font-weight: 600;
+    border-color: #fff;
+    border-width: 2px;
+    transition: 0.8s all;
+    cursor: pointer;
+}
+
+.button-contant:hover {
+    color: rgb(162, 156, 156);
+    border-color: rgb(162, 156, 156);
+}
+
+.contact-blok-2 {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: -440px;
+    left: 1020px;
+    color: #fff;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    font-size: 22px;
+}
+
+.title-contact-blok-2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.info-contact-blok-2 {
+    padding-top: 12px;
+}
+
+.tel-contact-blok-2 {
+    padding-top: 34px;
+}
+
+/*JOIN*/
+
+.join-list {
+    width: 100%;
+    height: 510px;
+    background-color: rgb(20, 20, 20);
+}
+
+.block-join-list {
+    width: 720px;
+    height: 380px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    padding-top: 75px;
+}
+
+.title-join-list {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.subtitle-join-list {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.enter-join-list {
+    font-size: 22px;
+    padding-top: 50px;
+}
+
+.button-join-list-1 {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-style: solid;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border-color: #fff;
+    border-width: 2px;
+    transition: 0.8s all;
+    cursor: pointer;
+}
+
+.button-join-list-2 {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-style: solid;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border-color: #fff;
+    border-width: 2px;
+    transition: 0.8s all;
+    cursor: pointer;
+}
+
+.button-join-list-1:hover {
+    color: rgb(162, 156, 156);
+    border-color: rgb(162, 156, 156);
+}
+
+.button-join-list-2:hover {
+    color: rgb(162, 156, 156);
+    border-color: rgb(162, 156, 156);
+}

@@ -1,0 +1,48 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:react-hooks/recommended",
+        "plugin:jsx-a11y/recommended",
+        "plugin:import/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prefer-arrow",
+        "react-hooks",
+        "react-prefer-function-component",
+        "prefer-arrow-functions"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "linebreak-style": ["error", "unix"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react-hooks/rules-of-hooks": "error",
+        "react/no-unknown-property": [0],
+        "react-hooks/exhaustive-deps": "warn",
+        "jsx-a11y/label-has-associated-control": "warn",
+        "jsx-a11y/anchor-has-content": "warn",
+        "jsx-a11y/anchor-is-valid": "warn",
+        "react/function-component-definition": [
+            2,
+            {
+                "namedComponents": "arrow-function",
+                "unnamedComponents": "arrow-function"
+            }
+        ]
+    }
+}

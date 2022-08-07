@@ -1,0 +1,83 @@
+.types {
+  width: 100%;
+  height: 200px;
+}
+
+.types_container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 97px;
+  height: 200px;
+  justify-content: center;
+}
+
+.types_text {
+  font-size: 20px;
+  font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+  font-weight: 700;
+}
+
+.types_buttons-container {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.types_button-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+
+  background-color: #0c6efc;
+  width: 98px;
+  height: 35px;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.types_button-border {
+  width: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
+  height: 35px;
+  opacity: .3;
+}
+
+.types_button-down-container {
+  width: 860px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.types_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+
+  font-size: 16px;
+  color: #000;
+  width: 158px;
+  height: 35px;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.types_button:hover {
+  background-color: #0066ff;;
+  color: white;
+}

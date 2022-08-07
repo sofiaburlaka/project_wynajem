@@ -1,0 +1,136 @@
+.accessories {
+  width: 100%;
+  height: 1640px;
+}
+
+.accessories_container {
+  width: 100%;
+  height: 1400px;
+  background-color: #41a0a0;
+}
+
+.accessories_pattern {
+  height: 1250px;
+}
+
+.comming_soon {
+  background-position: center;
+  background-image: url(../pages/Aksesoria/img/coming_soon.jpg);
+  background-size: cover;
+}
+
+
+/* WARNING! Many classes are taken from "templates.css" */
+
+.accessories_order-container {
+  width: 539px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(199, 199, 199);
+  opacity: 0;
+  
+}
+
+.accessories_order-container:hover{
+  opacity: 1;
+}
+
+.accessories_box_component {
+  position: relative ;
+}
+
+
+.accessories_order-up {
+  width: 200px;
+  height: 70px;
+
+  text-align: center;
+  padding: 24px 23px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #0c6efc;
+
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border-radius: 10px;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.accessories_order-up:hover {
+  background-color: white;
+  color: #0c6efc;
+}
+
+.accessories_order-down {
+  width: 200px;
+  height: 70px;
+
+  margin-top: 10px;
+
+  text-align: center;
+  padding: 24px 23px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #0c6efc;
+
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border-radius: 10px;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.accessories_order-down:hover {
+  background-color: white;
+  color: #0c6efc;
+}
+
+.templates_text-box {
+  width: 30%;
+  height: 90px;
+  padding-top: 18px;
+  /* font-family: 'Ibarra Real Nova', 'italic' serif; */
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.templates_text {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  padding-left: 6px;
+  font-weight: 700;
+}
+
+.templates_number {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 6px 8px;
+}
+
+.templates_price {
+  width: 100px;
+  height: 40px;
+
+  padding-top: 8px;
+  top: -53px;
+  left: 427px;
+
+  text-align: center;
+  position: relative;
+  background-color: rgb(12,110,252, .8)
+}
