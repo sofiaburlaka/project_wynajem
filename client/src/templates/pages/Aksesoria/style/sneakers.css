@@ -1,0 +1,385 @@
+.sn-body{
+    width: 100%;
+}
+
+/*NAVBAR*/
+
+.sn-navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    display: flex;
+
+}
+.sn-nav-logo {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sn-nav {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sn-ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.sn-li{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 2.4vh;
+    cursor: pointer;
+    margin: 5px;
+}
+.sn-a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sn-nav-as{
+    font-size: 2.5vw;
+    font-family:  sans-serif;
+    color: rgb(255,255,255);
+    margin: 0 20px 8px 0; 
+}
+
+.sn-login-block{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.sn-login-icon{
+    color: rgb(239, 154, 57);
+    font-size: 35px; 
+    margin-right: 15px;
+    margin-left: 15px;  
+}
+.sn-login-par{
+    font-size: 3vh;
+    color: rgb(239, 154, 57);
+    font-family: sans-serif;
+}
+
+.sn-nav-aw{
+    font-size: 1vw;
+    letter-spacing: 4px;
+    margin: 0;
+}
+ 
+/*FIRST BLOCK*/
+
+.sn-first-container{
+    background: url(../img/sneakers/84770f_e79251bac8554e33b08eb677c53a8e87_mv2.webp) center no-repeat fixed;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+.sn-logo-button{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.sn-as{
+    font-size: 20vw;
+    font-family:  sans-serif;
+    color: rgb(255,255,255);
+    margin: 0;
+}
+.sn-awesome{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    letter-spacing: 10px;
+    margin: 0;
+}
+.shop-now-btn{
+    margin-top: 3%;
+    width: 15%;
+    height: 7vh;
+    border:  none;
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    letter-spacing: 3px;
+    margin-bottom: 10%;
+}
+.shop-now-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+ /*SECOND BLOCK*/
+
+.sn-second-container{
+    background: url(../img/sneakers/1e47b2_12e77e928f02484aa3973c8e62bad393.webp) center no-repeat fixed;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sn-collections-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sn-men-collection{
+    width: 50%;
+    height: 80vh;
+    background-size: contain;
+    background: url(../img/sneakers/84770f_947e5c5f36f841908cc0472b141492f1_mv2.webp);
+    transition: 1s ease 0s;
+}
+.sn-women-collection{
+    width: 50%;
+    height: 80vh;
+    background-size: contain;
+    background: url(../img/sneakers/84770f_894bbd9b59ec4b6581ab5c9b6b310743_mv2.webp) ;
+    transition: 1s ease 0s; 
+}
+.sn-women-collection:hover, .sn-men-collection:hover{
+    transform: scale(1);
+    /*вернутись*/
+}
+.sn-mans-col{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 2.8vw;
+    letter-spacing: 3px;
+    text-shadow: 1.5px 1.5px #0a0b0b4a;
+}
+.sn-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*THIRD BLOCK*/
+
+.sn-finalsale-block{
+    background: url(../img//sneakers/84770f_47eecceda39f45d6b719f9d032e24151.webp) no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    margin-bottom: 0.7%;
+}
+.third-slide-sn {
+    background: url(../img/sneakers/1e47b2_d9feb6e91c974bbf982028e0f3cf18cc.webp) no-repeat;
+    width: 55%;
+    height: 60vh;
+    background-size: contain;
+    transition: 1s ease 0s; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+.third-slide-sn:hover{
+    background: url(../img/sneakers/1e47b2_c190203fa2b3480a9fbb81370e886355.webp) no-repeat;
+    width: 55%;
+    height: 60vh;
+    background-size: contain;
+}
+.sn-final-sale-card{
+     width: 40%;
+     height: 20vh;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     background-color: rgb(255, 255, 255);
+     transition: 1s ease 0s; 
+     color: rgb(8, 8, 8);
+}
+.sn-final-sale-card:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.sn-final-sale{
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+.shop-sale-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width:50%;
+    height: 6vh;
+    border:  none;
+    font-family:sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    letter-spacing: 3px;
+}
+.shop-sale-btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/*FOUR BLOCK*/
+.sn-examples-block{
+    width: 100%;
+    height: auto;
+    background-color: rgb(237, 237, 238, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+}
+.snikers-card {
+    width: 25%;
+    height: 40vh;
+    transition: 1s ease 0s;
+}
+.snikers-card:hover{
+    transform: scale(1.1);
+}
+
+.sn-first-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sn-second-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sn-card-f {
+    background: url(../img/sneakers/84770f_deb028dbaa0944aabb8ddd538d2ed598.webp) no-repeat;
+    background-size: contain;
+}
+.sn-card-s {
+    background: url(../img/sneakers/84770f_fe645b9caa874735ad2b817f5ee77551.webp) no-repeat;
+    background-size: contain;
+}
+.sn-card-th {
+    background: url(../img/sneakers/84770f_054990a92c9e4b28bcc929a20b034302.webp) no-repeat;
+    background-size: contain;
+}
+.sn-card-fo {
+    background: url(../img/sneakers/84770f_3ed8b7af19324b2fa5215afa327aefb7.webp) no-repeat;
+    background-size: contain;
+}
+.sn-card-fi {
+    background: url(../img/sneakers/84770f_a76d377940e049d0baaf2a10265711f5.webp) no-repeat;
+    background-size: contain;
+}
+.sn-card-six{
+    background: url(../img/sneakers/84770f_732eed9a72de449a853444132e1cda25.webp) no-repeat;
+    background-size: contain;
+}
+
+/*FOOTER*/
+
+.sn-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+.sn-footer-forms{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 70%;
+}
+
+.sn-par-address{
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.sn-smth-address{
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    font-family: sans-serif;
+}
+.sn-contact-us{
+    display: flex;
+    flex-direction: column;
+}
+.sn-three-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.sn-inputs{
+    display: flex;
+    flex-direction: row;
+}
+.sn-input-style{
+    background: #FFFFFF00;
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    border-style:solid;
+    border-width: 1px;
+    margin: 3px;
+    padding: 8px;
+    border-radius: 0px;
+    transition-duration: 0.1s;
+}
+.sn-input-style:hover{
+    border-width: 3px;
+
+}
+.sn-submit-inp{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width:30%;
+    height: 4.5vh;
+    border:  none;
+    font-family:sans-serif;
+    font-size: 1.7vw;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    letter-spacing: 3px;
+    align-self: flex-end;
+    margin: 3px;
+}
+.sn-submit-inp:hover{
+    color: white;
+    background-color: black;
+}
+
+.sn-stay-in-touch{
+    display: flex;
+    flex-direction: column;
+}
+.sn-submit-subscr{
+    width:97%;
+}
+.sn-stay-input{
+    margin: 0;
+    margin-bottom: 4px;
+}
+.sn-icons{
+    color: aliceblue;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.sn-address, .sn-contact-us, .sn-stay-in-touch{
+    margin-left: 5px;
+    margin-right: 5px;
+}
