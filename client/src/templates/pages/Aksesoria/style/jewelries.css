@@ -1,0 +1,309 @@
+@import url(https://fonts.googleapis.com/css?family=Overlock:regular,italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Spinnaker:regular);
+
+.jew-wrapper{
+    overflow: hidden;
+    color: #000000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Overlock;
+
+}
+
+/*NAV*/
+
+.jew-nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    box-shadow: inset 2px 2px  15px rgba(13, 13, 13, 0.1) ;
+}
+.jew-navigation{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.jew-logo{
+    background: url(../img/jewelries/photo_2022-08-24_09-03-12.jpg) no-repeat;
+    background-size: contain;
+    width: 7%;
+    height: 60px;
+}
+
+.jew-bijou{
+    color:#7795A3 ;
+    font-size: 2vw;
+    font-family: Spinnaker;
+}
+
+.jew-login-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10%;
+    align-items: center;
+}
+
+.jew-links{
+    width:50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.jew-ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jew-li{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+
+.jew-li:hover{
+    background-color: rgba(13, 13, 13, 0.0);
+}
+
+.jew-login-group{
+    display: flex;
+    flex-direction: row;
+}
+
+.jew-login{
+    color: gray;
+    font-size: 1vw;
+}
+
+/*FIRST BLOCK*/
+
+.jew-first-block{
+    width:100%;
+    height: 600px;
+    background: url(../img/jewelries/84770f_ca183cbde2e54902bb15671ac5b117dd_mv2\ \(1\).webp) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: jew-clock;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes jew-clock {
+    50% {
+        background: url(../img/jewelries/84770f_bb57e5518bbd43e8870325b93c908cee_mv2.webp) no-repeat ;
+        background-size: cover;
+    }
+    75%{
+        background: url(../img/jewelries/84770f_e069f1bf22464052b666a284d3f458fb_mv2.webp) no-repeat;
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/jewelries/84770f_ca183cbde2e54902bb15671ac5b117dd_mv2\ \(1\).webp) no-repeat;
+        background-size: cover;
+    }
+    
+  }
+
+.jew-main{
+    width: 35%;
+    height: 40%;
+    background: rgba(255, 255, 255, 0.622);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jew-the-mew {
+    font-size:1.6vw;
+    margin-top: 2% ;
+    letter-spacing: 6px;
+    
+}
+.jew-gold {
+    font-size: 2vw;
+    margin-top: 2%;
+    letter-spacing: 4px;
+    font-family: Spinnaker;
+}
+
+.jew-main-btn{
+    background-color: #C7B56F;
+    border: none;
+    color: #fff;
+    width: 40%;
+    height: 20%;
+    font-family: Overlock;
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.jew-main-btn:hover{
+    background-color: #C7B56F;
+    opacity: 0.8;
+}
+
+/*SECOND BLOCK*/
+
+.jew-second-block{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.jew-blocks{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.jew-small{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(26, 0, 121);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.jew-f-bl {
+    background: url(../img/jewelries/157553_5c7bfd55032b47afbf0d5d6d21856b72.webp) no-repeat ;
+    background-size: contain;
+}
+.jew-f-bl:hover{
+    background: url(../img/jewelries/157553_97edb217e6fa4968a02874f7458c40da.webp) no-repeat ;
+    background-size: cover;
+}
+.jew-s-bl {
+    background: url(../img/jewelries/157553_477528c34660447a8a0afdbdf1a0fe05.webp) no-repeat;
+    background-size: contain;
+}
+
+.jew-s-bl:hover{
+    background: url(../img/jewelries/157553_1244b96056e84b759931705533c8390a.webp) no-repeat;
+    background-size: cover;
+}
+
+.jew-th-bl {
+    background: url(../img/jewelries/157553_693426837c2f455693946bd5ff85e975.webp) no-repeat;
+    background-size: contain;
+}
+
+.jew-th-bl:hover{
+    background: url(../img/jewelries/157553_6e9733f69b3e4a47b7f7b8e51b744d13.webp) no-repeat;
+    background-size: cover;
+}
+
+.jew-fo-bl {
+    background: url(../img/jewelries/157553_abfd11f66c2a446595e5c09ce463b4b7.webp) no-repeat;
+    background-size: contain;
+}
+
+.jew-fo-bl:hover {
+    background: url(../img/jewelries/157553_981b23afab4a4ae89a3900753b98e378.webp) no-repeat;
+    background-size: cover;
+}
+
+.jew-on-sale{
+    background-color: #7795A3;
+    color: #fff;
+    width: 30%;
+    font-size: 1vw;
+    padding-left: 2%;
+}
+
+.jew-block-j{
+    display: flex;
+    flex-direction: column;
+}
+
+.jew-block-j{
+    width: 20%;
+    
+}
+
+.jew-product{
+    margin: 0;
+    font-size: 1.1vw;
+    color: #000;
+}
+
+.jew-price{
+    margin: 0;
+    font-size: 0.9vw;
+}
+
+.jew-button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: none;
+}
+
+.jew-small:hover .jew-button{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.jew-a{
+    color: #000;
+    text-decoration: none;
+    font-family: Overlock;
+}
+
+/*FOOTER*/
+
+.jew-footer{
+    width: 100%;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jew-icons{
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jew-icon{
+    width: 25%;
+    cursor: pointer;
+    color: #000;
+}
+
+.jew-f-par{
+    margin-top: 1%;
+    font-size: 1.1vw;
+}
+
+.jew-s-par{
+    
+    margin-top: 1%;
+    font-size: 0.9vw;
+    color: #7795A3;
+}
